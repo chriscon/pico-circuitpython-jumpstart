@@ -23,7 +23,7 @@ Unlike the last two exercises (which ran the script and then exited), we're runn
 Like last time, we define a pin (GP7), but this time we set it to an "input" and "pull it up". Think of this like a default value. When a pin isn't pulled up or down, it is 
 "floating", meaning it can read random, but very smal, values based on electrical noise around the pin at any given time. So without doing this, there could be times where the pin reads high or low incorrectly.
 
-With that out of the way, we can now in a loop check the value of our pin. If it reads high, we know the button is not pressed. If it reads low, we know the button is currently pressed (or unfortunately unplugged (TODO, confirm this)).
+With that out of the way, we can now in a loop check the value of our pin. If it reads high, we know the button is not pressed. If it reads low, we know the button is currently pressed (or unfortunately unplugged).
 
 As you click and hold the button, you should get some output letting you know when you clicked, and how long you held it for.
 

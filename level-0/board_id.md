@@ -23,7 +23,6 @@ At this point, you have a virtual environment set up, and are ready to install o
  - `ampy`
     - This is a very simple tool which allows file manipulation from your local machine to the Pico, and more importantly python file _execution_ on the Pico itself. The `stdout` and `stderr` of the script execution are returned to your shell. It uses serial communication, so its _not fast_, but it works pretty dang well.
     - You'll notice that it appears defunct (message at the top of the [repo](https://github.com/scientifichackers/ampy)) and that replacement tools are reccomended there. From all my searching, I do not see a reasonable alternative to `ampy` that can still execute python code over serial. This is important because being able to run a python script this way allows fast iteration (can also be read as that I am impatient and lazy).
-   - TODO: Do I need to ask them to install a fork with what I had to do locally?
  - `circup`
     - [This utility](https://github.com/adafruit/circup) is similar to `pip`, it allows us to manage our dependencies on our board. Interestingly (maybe dangerously), it also will automatically keep *all* dependencies up to date, as we add/remove packages.
     - Install it with `pip install circup`
@@ -42,8 +41,6 @@ Drag this U2F file over to your mounted `RPI-RP2` (your Pico). You will observe 
 **At this point you are ready to execute CircuitPython code wherever you have access to 3.3 volts!**
 
 If you look in the `CIRCUITPY` mounted device, you'll see a `code.py` and a `/lib/` directory. Whenever the Pico receives 3.3 volts (whether that is from being plugged into your computer, a battery, or a series of potatoes science-experiement-style), it will run whatever code is in `code.py`. This is where using these $4 microcontrollers get extremely powerful.
-
-TODO: Make sure there isn't anything else to call out here.
 
 **At this point, we have a Pico that has CircuitPython loaded onto it, and is ready to execute arbitrary python code**
 
