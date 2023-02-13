@@ -8,6 +8,8 @@ As with most engineering, there are several different ways to get to the same en
 
 # ToC
 
+![workshop-example](https://user-images.githubusercontent.com/3409005/218568356-857327c5-c6b3-4253-ad1d-377bc14e7db1.jpg)
+
  - [Exercise 0](level-0/board_id.md)
     - Get your local environment setup
     - Get your Pico configured
