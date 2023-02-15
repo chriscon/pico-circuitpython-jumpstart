@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 0
 
 We're starting off easy. Our goal is to setup the Pico (and our local environment), and read the ID off of the Pico chip.
 
